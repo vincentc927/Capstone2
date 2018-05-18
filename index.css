@@ -14,7 +14,9 @@
   background-size: cover;
   background-position: center;
   text-align: center;
+  font-size: 60px;
   color: hsla(0, 0%, 100%, 1);
+  position: relative;
 }
 
 .hero h2 {
@@ -23,6 +25,10 @@
   font-family: Helvetica;
   font-size: inherit;
   font-weight: bold;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   text-align: center;
 }
 
