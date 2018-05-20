@@ -8,11 +8,11 @@
   <link href="https://fonts.googleapis.com/css?family=PT+Serif:700" rel="stylesheet">
 </head>
 <body>
-
+  <div class="grid">
   <div class="container">
 
     <!-- Header -->
-  <div class="grid">
+
     <header>
       <div class="image-container">
         <a href="index.html"><img src="resources/img/home.png"></a>
@@ -24,18 +24,22 @@
       <a href="cart.html" class="button cart">Cart <img src="resources/img/cart.svg"></a>
     </header>
     <nav>
-      <a href="deals.html">Today's Deals</a>
-      <a href="products.html">All Products</a>
-      <a href="about.html">About Us</a>
-      <a href="sell.html">Sell</a>
-      <a href="#">Help</a>
+      <div class="dash">
+      <a class="dash-1" href="deals.html">Today's Deals</a>
+      <a class="dash-2" href="products.html">All Products</a>
+      <a class="dash-3" href="about.html">About Us</a>
+      <a class="dash-4" href="sell.html">Sell</a>
+      <a class="dash-5" href="#">Help</a>
+    </div>
     </nav>
 
     <!-- Hero Section -->
 
     <div id="main" class="landing">
       <div class="hero">
-        <h2>Shop Dining Tables</h2>
+        <h2>
+          <span>Shop Dining Tables</span>
+        </h2>
       </div>
 
     <!-- Products Preview Section -->
@@ -44,7 +48,7 @@
 
         <!-- Product Categories -->
 
-        <h2>Shop by category</h2>
+        <div class="shopcat"><h2>Shop by category</h2></div>
         <div class="product-list categories">
           <a href="living.html" class="product-category">
             <div class="image-container">
