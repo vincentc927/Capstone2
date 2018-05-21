@@ -208,17 +208,21 @@ footer {
 }
 
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 760px){
 
-  .landing .product-list {
+.landing .product-list {
     grid-template-columns: repeat(3, 1fr);
   }
-  
+
+nav {
+  width: 100%;
+}
+
 .banner {
   width: 760px;
 }
 
-.footer {
+footer {
   width: 760px;
 }
 
